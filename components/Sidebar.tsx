@@ -32,11 +32,11 @@ const Sidebar = () => {
           </CommandItem>
           <CommandItem>
             <Newspaper className='mr-2 h-4 w-4' />
-            <Link href='/post'>Post</Link>
+            <Link href='/posts'>Post</Link>
           </CommandItem>
           <CommandItem>
             <Folders className='mr-2 h-4 w-4' />
-            <Link href='/post'>Categories</Link>
+            <Link href='/posts'>Categories</Link>
           </CommandItem>
         </CommandGroup>
         <CommandSeparator />
